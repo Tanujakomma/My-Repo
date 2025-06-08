@@ -14,8 +14,8 @@ stages:
     jobs:
       - job: DownloadJob
         steps:
-          - task:
-             inputs:
+          - task
+            inputs:
              targetType: inline
              script: 'git clone https://github.com/Tanujakomma/My-Repo.git'
   
